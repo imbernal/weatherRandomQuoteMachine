@@ -1,0 +1,42 @@
+body{
+	background-color: black !important;
+}
+
+.data{
+	text-align: center;
+	color: white;
+	margin-top: 8%;
+}
+
+h1{
+	margin-bottom: 5% !important;
+}
+
+#inputEmail3{
+	display: inline-block;
+	width: 15%;
+}
+
+.data div{
+	font-size: 20px;
+	padding-bottom: 18px;
+}
+
+.inputZip{
+	text-align: center;
+}
+
+.inputZip #zipcode{
+	display: block;
+	margin-left: 44%;
+}
+
+.inputZip span{
+	display: block;
+	color:white;
+
+}
+
+
+
+
