@@ -5,23 +5,26 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/weather-icons-wind.css">
+<link rel="stylesheet" type="text/css" href="css/weather-icons.css">
 
 </head>
 <body>
-	
+	<div class="icon"><i id="iconChange" class=""></i></div>
 	<div class="data">
-		<h1>Weather App (<span id="city"></span>)</h1>
-		
 		<div class="form-group">
-    		<label for="inputEmail3" class="control-label">ZipCode</label>
     		<div class="">
       			<input type="text" maxlength="5" class="form-control" id="inputEmail3" placeholder="Enter ZipCode">
     		</div>
   		</div>
-		
-		<div class="temp">Temp: <span id="tempNum"></span></div>
-		<div class="humidity">Humidity: <span id="humidityNum"></span></div>
-		<div class="pressure">Pressure: <span id="pressureNum"></span></div>
+		<h3 id="city"></h3>
+	
+		<div class="temp">
+			<span id="tempNum"></span>
+			<i class="wi wi-celsius"></i><i class="wi wi-fahrenheit"></i>
+		</div>
+		<div class="humidity"><i class="wi wi-humidity"></i>Humidity: <span id="humidityNum"></span></div>
+		<div class="pressure"><i class="wi wi-thermometer"></i>Pressure: <span id="pressureNum"></span></div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

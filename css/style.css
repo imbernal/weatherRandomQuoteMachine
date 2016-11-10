@@ -1,11 +1,62 @@
 body{
-	background-color: black !important;
+	background-color: skyblue !important;
 }
 
 .data{
 	text-align: center;
 	color: white;
 	margin-top: 8%;
+}
+
+.temp {
+	color: steelblue;
+}
+
+.temp span{
+	color: white;
+}
+
+.humidity{
+	color: steelblue;
+	display: inline-block;
+	margin-right: 4%;
+}
+
+.humidity span{
+	color: white;
+}
+
+.humidity i{
+	padding-right: 8px;
+}
+
+.pressure{
+	color: steelblue;
+	display: inline-block;
+}
+
+#city{
+	margin-bottom: 5%;
+}
+
+.temp{
+	margin-bottom: 4%;
+}
+
+#tempNum{
+	font-size: 60px;
+}
+
+.pressure span{
+	color: white;
+}
+
+.pressure i{
+	padding-right: 8px;
+}
+
+.form-group{
+	margin: 0 !important;
 }
 
 h1{
@@ -15,10 +66,11 @@ h1{
 #inputEmail3{
 	display: inline-block;
 	width: 15%;
+	margin: 0 !important;
 }
 
 .data div{
-	font-size: 20px;
+	font-size: 15px;
 	padding-bottom: 18px;
 }
 
@@ -35,6 +87,30 @@ h1{
 	display: block;
 	color:white;
 
+}
+
+.colorIconSelected{
+	color:white;
+}
+
+.wi-celsius{
+	font-size: 30px;
+	margin-left: 2%;
+	margin-right: 15px;
+	cursor: pointer;
+}
+
+.wi-fahrenheit{
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.icon{
+	bottom: 8%;
+    position: absolute;
+    left: 47%;
+    font-size: 71px;
+    color: #924da3;
 }
 
 
